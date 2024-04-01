@@ -4,6 +4,16 @@ from services import Game, Telegram
 
 
 def lambda_handler(event: dict, context):
+    """
+    Handles incoming Lambda function events.
+
+    Args:
+        event (dict): The event data.
+        context: The Lambda function runtime context.
+
+    Returns:
+        dict: The response data.
+    """
     event = event["body"]
     if isinstance(event, str):
         event = json.loads(event)

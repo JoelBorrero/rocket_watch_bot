@@ -23,7 +23,7 @@
 To contribute to the **Rocket Watch Bot**, follow these steps:
 
 1. Clone the [repository](https://github.com/JoelBorrero/rocket_watch_bot) and create a new branch from `main` with a descriptive name reflecting your contribution.
-2. Ensure your code adheres to the project's coding standards and style guidelines, leveraging linters and style checks.
+2. Ensure your code adheres to the project's coding standards and style guidelines, leveraging linters and style checks. Don't forget to include docstrings for document your code.
 3. Thoroughly test your changes before committing, and push your branch to the remote repository.
 4. Create a pull request targeting the `main` branch, including a detailed description of your modifications. Remember to fill the template file all the fields from the template form.
 5. After a code review, addressing feedback promptly, your changes will be merged into `main`.

@@ -24,4 +24,14 @@ app.add_middleware(
 
 @app.post("/")
 async def lambda_wrapper(body: dict):
+    """
+    Endpoint to handle incoming requests and pass them to the Lambda handler.
+    This FastAPI project is used to improve the development experience and upload later to AWS.
+
+    Args:
+        body (dict): The request body.
+
+    Returns:
+        dict: The response from the Lambda handler.
+    """
     return lambda_handler({"body": body}, None)
