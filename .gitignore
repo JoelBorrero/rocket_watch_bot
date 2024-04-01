@@ -1,0 +1,14 @@
+backend/__pycache__
+backend/venv
+backend/lambda.zip
+backend/libraries/
+
+frontend/dist
+frontend/node_modules
+# git update-index --skip-worktree frontend/.env
+frontend/.env
+
+.DS_Store
+*/.DS_Store
+*/.idea
+*/.vscode
